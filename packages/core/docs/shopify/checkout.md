@@ -32,7 +32,7 @@ handle (url key) or product id.
 This example fetch a single product by handle.
 ```typescript
 import { computed } from '@vue/composition-api';
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 import { useProduct, productGetters } from '@vue-storefront/shopify';
 
 export default {
@@ -87,7 +87,7 @@ Now that all the items have been added to the cart, then retrieve the cart to re
 Use `loadCart` method of `useCart` to get the cart from Shop.
 
 ```javascript
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 import { useCart } from '@vue-storefront/shopify';
 
 export default {

@@ -44,7 +44,7 @@ export interface BasketItem<P = BapiProduct, V = Variant> {
 
 ::: slot cart-initialization
 ```javascript
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 import { useCart } from '@vue-storefront/about-you';
 
 export default {

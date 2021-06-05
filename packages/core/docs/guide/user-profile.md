@@ -6,7 +6,7 @@ To access data of the currently logged-in user, we can use another property of `
 
 ```js{8,16}
 import { useUser } from '{INTEGRATION}';
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 
 export default {
   setup () {
@@ -39,7 +39,7 @@ export default {
 
 <script>
 import { useUser, userGetters } from '{INTEGRATION}';
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 
 export default {
   setup () {
@@ -137,7 +137,7 @@ To get a list of addresses, use `load` and `billing` or `shipping` properties an
 
 <script>
 import { useUserBilling, userBillingGetters } from '{INTEGRATION}';
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 
 export default {
   setup () {
@@ -186,7 +186,7 @@ Below is the example of using `deleteAddress` method.
 
 <script>
 import { useUserBilling, userBillingGetters } from '{INTEGRATION}';
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 
 export default {
   setup () {
@@ -230,7 +230,7 @@ To get a list of orders, use `search` and `orders` properties and `getItems` met
 
 <script>
 import { useUserOrders, orderGetters } from '{INTEGRATION}';
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 
 export default {
   setup () {

@@ -86,7 +86,7 @@ import {
 } from '@storefront-ui/vue';
 import { computed } from '@vue/composition-api';
 import { useWishlist, useUser, wishlistGetters } from '<%= options.generate.replace.composables %>';
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 import { useUiState } from '~/composables';
 
 export default {

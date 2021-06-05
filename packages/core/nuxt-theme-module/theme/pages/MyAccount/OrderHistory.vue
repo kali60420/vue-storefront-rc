@@ -105,8 +105,8 @@ import {
 } from '@storefront-ui/vue';
 import { computed, ref } from '@vue/composition-api';
 import { useUserOrder, orderGetters } from '<%= options.generate.replace.composables %>';
-import { AgnosticOrderStatus } from '@vue-storefront/core';
-import { onSSR } from '@vue-storefront/core';
+import { AgnosticOrderStatus } from '@kali604/core';
+import { onSSR } from '@kali604/core';
 
 export default {
   name: 'PersonalDetails',

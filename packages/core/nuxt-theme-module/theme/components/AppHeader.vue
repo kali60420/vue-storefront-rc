@@ -99,7 +99,7 @@ import { SfHeader, SfImage, SfIcon, SfButton, SfBadge, SfSearchBar, SfOverlay, S
 import { useUiState } from '~/composables';
 import { useCart, useWishlist, useUser, cartGetters } from '<%= options.generate.replace.composables %>';
 import { computed, ref, onBeforeUnmount, watch } from '@vue/composition-api';
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 import { useUiHelpers } from '~/composables';
 import LocaleSelector from './LocaleSelector';
 import SearchResults from '~/components/SearchResults';

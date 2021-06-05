@@ -1,4 +1,4 @@
-import { apiClientFactory } from '@vue-storefront/core';
+import { apiClientFactory } from '@kali604/core';
 import getProduct from './api/getProduct';
 import getCategory from './api/getCategory';
 

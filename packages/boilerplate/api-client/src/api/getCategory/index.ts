@@ -1,4 +1,4 @@
-import { CustomQuery } from '@vue-storefront/core';
+import { CustomQuery } from '@kali604/core';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 export default async function getCategory(context, params, customQuery?: CustomQuery) {

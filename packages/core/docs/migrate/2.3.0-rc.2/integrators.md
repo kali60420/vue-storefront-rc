@@ -22,7 +22,7 @@ export * from './types';
 
 ```typescript
 // api-client/src/index.server.ts
-import { apiClientFactory } from '@vue-storefront/core';
+import { apiClientFactory } from '@kali604/core';
 import * as api from './api';
 
 const onCreate = settings => ({
@@ -115,7 +115,7 @@ async function getProduct(context, params, customQueryFn?: CustomQueryFn) => {
 }
 
 // after
-import { CustomQuery } from '@vue-storefront/core';
+import { CustomQuery } from '@kali604/core';
 
 async function getProduct(context, params, customQuery?: CustomQuery) => {
   // ...
@@ -140,7 +140,7 @@ In `nuxt/plugin.js` add the tag name of your integration package as a first argu
 
 ```javascript
 // composables/nuxt/plugin.js
-import { integrationPlugin } from '@vue-storefront/core';
+import { integrationPlugin } from '@kali604/core';
 
 const moduleOptions = <%= serialize(options) %>;
 

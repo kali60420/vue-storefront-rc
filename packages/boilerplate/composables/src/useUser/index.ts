@@ -4,7 +4,7 @@ import {
   Context,
   useUserFactory,
   UseUserFactoryParams
-} from '@vue-storefront/core';
+} from '@kali604/core';
 import { User } from '../types';
 
 // @todo useUser

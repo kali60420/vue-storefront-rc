@@ -23,7 +23,7 @@ const getProduct = async ({ client, config }, id) => {
 
 ### Before
 ```js
-import { apiClientFactory } from '@vue-storefront/core';
+import { apiClientFactory } from '@kali604/core';
 
 let apiClient = null;
 
@@ -54,7 +54,7 @@ export {
 ### After
 
 ```js
-import { apiClientFactory } from '@vue-storefront/core';
+import { apiClientFactory } from '@kali604/core';
 import getProduct from './api/getProduct';
 
 const onCreate = (setupConfig) => {

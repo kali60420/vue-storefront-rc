@@ -93,7 +93,7 @@ import { useWishlist, wishlistGetters } from '@vsf-enterprise/ct-wishlist';
 Fetching products currently on wishlist:
 
 ```typescript
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 import { useWishlist, wishlistGetters } from '@vsf-enterprise/ct-wishlist';
 
 export default {

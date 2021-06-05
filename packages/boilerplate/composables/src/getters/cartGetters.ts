@@ -1,4 +1,4 @@
-import { CartGetters, AgnosticPrice, AgnosticTotals, AgnosticCoupon, AgnosticDiscount } from '@vue-storefront/core';
+import { CartGetters, AgnosticPrice, AgnosticTotals, AgnosticCoupon, AgnosticDiscount } from '@kali604/core';
 import { Cart, LineItem } from '@vue-storefront/boilerplate-api/src/types';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars

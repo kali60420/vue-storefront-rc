@@ -7,7 +7,7 @@ In Vue Storefront we're providing all the debugging information, warnings, and e
 To make use of the Vue Storefront logger, simply import it from the core and use one of 4 available types of messages
 
 ```js
-import { Logger } from '@vue-storefront/core';
+import { Logger } from '@kali604/core';
 
 Logger.error('error message');
 Logger.info('info message');
@@ -79,7 +79,7 @@ To override the default logger, pass a function to the `logger.customLogger` pro
 If for some reason you can't configure logger through `@vue-storefront/nuxt` module you can explicitly use `registerLogger` function:
 
 ```ts
-import { registerLogger } from '@vue-storefront/core';
+import { registerLogger } from '@kali604/core';
 
 const myLogger = {
   debug: (message: any, ...args) =>

@@ -2,7 +2,7 @@ import {
   Context,
   useUserBillingFactory,
   UseUserBillingFactoryParams
-} from '@vue-storefront/core';
+} from '@kali604/core';
 
 const addresses: any[] = [
   {

@@ -1,4 +1,4 @@
-import { useBillingFactory, UseBillingParams, Context } from '@vue-storefront/core';
+import { useBillingFactory, UseBillingParams, Context } from '@kali604/core';
 import { Address } from '../types';
 
 let details = {};

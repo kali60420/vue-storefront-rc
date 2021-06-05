@@ -1,4 +1,4 @@
-import { CategoryGetters, AgnosticCategoryTree } from '@vue-storefront/core';
+import { CategoryGetters, AgnosticCategoryTree } from '@kali604/core';
 import { Category } from '@vue-storefront/boilerplate-api/src/types';
 
 const itemToTree = (category: Category): AgnosticCategoryTree => {

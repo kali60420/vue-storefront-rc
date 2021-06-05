@@ -85,16 +85,12 @@
     "vue-eslint-parser": "^7.0.0",
     "webpack-bundle-analyzer": "^3.5.2"
   },
-  "workspaces": {
-    "packages": [
-      "packages/**/*"
-    ]
-  },
   "lint-staged": {
     "*.{js,ts,vue}": "eslint --fix"
   },
   "dependencies": {
-    "@kali604/rc-storefront-api": "^1.0.1",
-    "@kali604/rc-storefront-composables": "^1.0.3"
+    "@kali604/reactioncommerce-api": "latest",
+    "@kali604/reactioncommerce-composables": "latest",
+    "@kali604/core": "latest"
   }
 }

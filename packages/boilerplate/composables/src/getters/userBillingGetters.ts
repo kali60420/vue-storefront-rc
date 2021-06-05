@@ -1,4 +1,4 @@
-import { UserBillingGetters } from '@vue-storefront/core';
+import { UserBillingGetters } from '@kali604/core';
 
 const userGetters: UserBillingGetters<any, any> = {
   getAddresses: (billing, criteria?: Record<string, any>) => {

@@ -3,7 +3,7 @@ import {
   useProductFactory,
   ProductsSearchParams,
   UseProductFactoryParams
-} from '@vue-storefront/core';
+} from '@kali604/core';
 import { ProductsResponse } from '../types';
 
 const params: UseProductFactoryParams<ProductsResponse, any> = {

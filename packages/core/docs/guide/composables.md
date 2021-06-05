@@ -190,7 +190,7 @@ To use a composable, you need to import it from an integration you are using, an
 
 ```js
 import { useProduct } from '{INTEGRATION}';
-import { onSSR } from '@vue-storefront/core`
+import { onSSR } from '@kali604/core`
 
 export default {
   setup() {
@@ -239,7 +239,7 @@ To solve this issue, we provide a temporary solution - `onSSR`:
 
 ```js
 import { useProduct } from '{INTEGRATION}';
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 
 export default {
   setup() {

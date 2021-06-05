@@ -197,7 +197,7 @@ import {
   SfCheckbox
 } from '@storefront-ui/vue';
 import { ref } from '@vue/composition-api';
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 import { useBilling } from '<%= options.generate.replace.composables %>';
 import { required, min, digits } from 'vee-validate/dist/rules';
 import { ValidationProvider, ValidationObserver, extend } from 'vee-validate';

@@ -15,7 +15,7 @@ If you want to fetch/save other user data you should use the following composabl
 
 ```js
 import { useUser } from '{INTEGRATION}'
-import { onSSR } from '@vue-storefront/core'
+import { onSSR } from '@kali604/core'
 
 export default {
   setup () {

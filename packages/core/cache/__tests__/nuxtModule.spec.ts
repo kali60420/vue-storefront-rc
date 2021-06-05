@@ -26,7 +26,7 @@ const mockHandler = jest.fn(() => ['a', 'b', 'c', 'a', 'b', 'c']);
 /**
  * Mocks
  */
-jest.mock('@vue-storefront/core');
+jest.mock('@kali604/core');
 jest.mock('path');
 jest.mock('../nuxt/helpers.js', () => ({
   requirePackage: jest.fn(() => ({})),

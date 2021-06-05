@@ -14,10 +14,10 @@
   },
   "dependencies": {
     "@vue-storefront/boilerplate-api": "^2.3.3",
-    "@vue-storefront/core": "^2.3.3"
+    "@kali604/core": "^2.3.4"
   },
   "peerDependencies": {
-    "@vue/composition-api": "1.0.0-beta.21"
+    "@vue/composition-api": "latest"
   },
   "files": [
     "lib/**/*"

@@ -60,11 +60,11 @@ export default {
       useRawSource: {
         dev: [          
           '@vue-storefront/reactioncommerce',
-          '@vue-storefront/core'
+          '@kali604/core'
         ],
         prod: [
           '@vue-storefront/reactioncommerce',
-          '@vue-storefront/core'
+          '@kali604/core'
         ]
       }
     }],

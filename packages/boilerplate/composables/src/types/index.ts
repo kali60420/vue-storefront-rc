@@ -1,4 +1,4 @@
-export { UseCategory, UseProduct } from '@vue-storefront/core';
+export { UseCategory, UseProduct } from '@kali604/core';
 
 export type Address = Record<string, unknown>;
 

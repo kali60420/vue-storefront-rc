@@ -34,7 +34,7 @@ export type OrderItem = {
 The list of orders associated with the customer.
 
 ```javascript
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 import { computed } from '@vue/composition-api';
 import { useUserOrders } from '@vue-storefront/shopify';
 

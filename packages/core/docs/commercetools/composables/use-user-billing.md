@@ -291,7 +291,7 @@ type BillingAddress = Address & {
 ## Example
 
 ```typescript
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 import { useUserBilling, userBillingGetters } from '@vsf-enterprise/commercetools';
 
 export default {

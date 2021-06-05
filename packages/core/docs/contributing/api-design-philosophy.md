@@ -12,7 +12,7 @@ While designing something so complex as Vue Storefront it's vital to set up rule
 4. If you introduce a new, commonly used feature (like cache) try to provide a default configuration out of the box and let users customize it so they don't have to configure for the most common use cases, only for custom ones. This approach will dreastically reduce the number of boilerplate code users has to write.
 ```js
 import { ueProduct } from '@vue-storefront/{eCommerce}'
-import { cacheManager } from '@vue-storefront/core'
+import { cacheManager } from '@kali604/core'
 
 const { search } = useProduct()
 

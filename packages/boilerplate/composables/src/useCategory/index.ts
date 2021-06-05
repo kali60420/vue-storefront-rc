@@ -2,7 +2,7 @@ import {
   Context,
   useCategoryFactory,
   UseCategoryFactoryParams
-} from '@vue-storefront/core';
+} from '@kali604/core';
 import { Category } from '../types';
 
 const params: UseCategoryFactoryParams<Category, any> = {

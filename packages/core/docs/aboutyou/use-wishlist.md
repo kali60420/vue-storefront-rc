@@ -21,7 +21,7 @@ export interface WishlistItem {
 
 ::: slot wishlist-initialization
 ```javascript
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 import { useWishlist } from '@vue-storefront/about-you';
 
 export default {

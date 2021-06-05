@@ -370,7 +370,7 @@ interface AgnosticDiscount {
 
 ```js
 import { useCart, cartGetters } from '@vue-storefront/commercetools';
-import { onSSR } from '@vue-storefront/core'
+import { onSSR } from '@kali604/core'
 
 export default {
   setup () {

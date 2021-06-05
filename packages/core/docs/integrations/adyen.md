@@ -25,12 +25,12 @@ export default {
       useRawSource: {
         dev: [
           '@vue-storefront/commercetools',
-          '@vue-storefront/core',
+          '@kali604/core',
           '@vsf-enterprise/adyen'
         ],
         prod: [
           '@vue-storefront/commercetools',
-          '@vue-storefront/core',
+          '@kali604/core',
           '@vsf-enterprise/adyen'
         ]
       }

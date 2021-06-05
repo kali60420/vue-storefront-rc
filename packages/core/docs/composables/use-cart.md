@@ -12,7 +12,7 @@ Use `useCart` to:
 
 ```js
 import { useCart } from '{INTEGRATION}'
-import { onSSR } from '@vue-storefront/core'
+import { onSSR } from '@kali604/core'
 
 export default {
   setup () {

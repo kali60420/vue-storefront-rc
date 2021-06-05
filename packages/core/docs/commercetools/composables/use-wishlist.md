@@ -252,7 +252,7 @@ type ShoppingListLineItem = {
 ## Example
 
 ```typescript
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 import { useWishlist, wishlistGetters } from '@vsf-enterprise/commercetools';
 
 export default {

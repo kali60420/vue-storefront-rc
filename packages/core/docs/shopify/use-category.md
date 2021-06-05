@@ -34,7 +34,7 @@ export type Category = {
 Fetches all collections on the shop, including products.
 
 ```javascript
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 import { useCategory } from '@vue-storefront/shopify';
 
 export default {

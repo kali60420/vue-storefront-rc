@@ -79,7 +79,7 @@ import UserBillingAddress from '~/components/UserBillingAddress';
 import BillingAddressForm from '~/components/MyAccount/BillingAddressForm';
 import { useUserBilling, userBillingGetters } from '<%= options.generate.replace.composables %>';
 import { ref, computed } from '@vue/composition-api';
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 
 export default {
   name: 'BillingDetails',

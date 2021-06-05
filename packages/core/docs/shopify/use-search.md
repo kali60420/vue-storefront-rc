@@ -74,7 +74,7 @@ export type Product = {
 ## Examples
 
 ```javascript
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 import { useSearch } from '@vue-storefront/shopify';
 
 export default {

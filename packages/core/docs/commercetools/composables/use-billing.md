@@ -75,7 +75,7 @@ We do not provide getters for checkout and its parts.
 
 ```js
 import { useBilling } from '@vue-storefront/commercetools';
-import { onSSR } from '@vue-storefront/core'
+import { onSSR } from '@kali604/core'
 export default {
   setup () {
     const { load, billing } = useBilling();

@@ -301,7 +301,7 @@ type ShippingAddress = Address & {
 ## Example
 
 ```typescript
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 import { useUserShipping, userShippingGetters } from '@vsf-enterprise/commercetools';
 
 export default {

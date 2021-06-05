@@ -45,11 +45,11 @@ export default {
       useRawSource: {
         dev: [
           '@vue-storefront/commercetools',
-          '@vue-storefront/core'
+          '@kali604/core'
         ],
         prod: [
           '@vue-storefront/commercetools',
-          '@vue-storefront/core'
+          '@kali604/core'
         ]
       }
     }],
@@ -157,11 +157,11 @@ export default {
       useRawSource: {
         dev: [
           '@vue-storefront/commercetools',
-          '@vue-storefront/core'
+          '@kali604/core'
         ],
         prod: [
           '@vue-storefront/commercetools',
-          '@vue-storefront/core'
+          '@kali604/core'
         ]
       }
     }],

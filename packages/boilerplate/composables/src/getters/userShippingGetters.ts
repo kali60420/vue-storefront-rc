@@ -1,4 +1,4 @@
-import { UserShippingGetters } from '@vue-storefront/core';
+import { UserShippingGetters } from '@kali604/core';
 
 const userGetters: UserShippingGetters<any, any> = {
   getAddresses: (shipping, criteria?: Record<string, any>) => {

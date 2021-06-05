@@ -11,7 +11,7 @@ Use `useWishlist` to:
 
 ```js
 import { useWishlist } from '{INTEGRATION}'
-import { onSSR } from '@vue-storefront/core'
+import { onSSR } from '@kali604/core'
 
 export default {
   setup () {

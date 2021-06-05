@@ -98,7 +98,7 @@ Initialization of a cart requires using `load()` when calling `useCart()` for th
 execution of `load`, the cart will get loaded only once and if a wishlist has already been loaded, nothing happens. Note that all the composables uses same load method, so you need to use it using alias. load: loadCart  
 
 ```javascript
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 import { useCart } from '@vue-storefront/shopify';
 
 export default {
@@ -119,7 +119,7 @@ export default {
 Get the list of cart item objects, each one containing information about an item in the checkout.
 
 ```javascript
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 import { useCart } from '@vue-storefront/shopify';
 
 export default {

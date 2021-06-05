@@ -1,4 +1,4 @@
-import { Context, useFacetFactory, FacetSearchResult } from '@vue-storefront/core';
+import { Context, useFacetFactory, FacetSearchResult } from '@kali604/core';
 
 const factoryParams = {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars

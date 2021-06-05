@@ -1,4 +1,4 @@
-import { useShippingFactory, UseShippingParams, Context } from '@vue-storefront/core';
+import { useShippingFactory, UseShippingParams, Context } from '@kali604/core';
 import { Address } from '../types';
 
 let details = {};

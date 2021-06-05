@@ -4,7 +4,7 @@ import {
   Context,
   useCartFactory,
   UseCartFactoryParams
-} from '@vue-storefront/core';
+} from '@kali604/core';
 import { Cart, CartItem, Coupon, Product } from '../types';
 
 const params: UseCartFactoryParams<Cart, CartItem, Product, Coupon> = {

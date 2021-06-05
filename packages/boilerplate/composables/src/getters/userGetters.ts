@@ -1,6 +1,6 @@
 /* istanbul ignore file */
 
-import { UserGetters} from '@vue-storefront/core';
+import { UserGetters} from '@kali604/core';
 import { User } from '../types';
 
 export const getUserFirstName = (user: User): string => user?.firstName || '';

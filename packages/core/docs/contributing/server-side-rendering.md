@@ -27,7 +27,7 @@ The configuration is done by single function called `configureSSR` that takes tw
 Below is the our current implementation. By default we provide it as a nuxt-module (`@vue-storefront/nuxt`) so if you are Nuxt.js user, you don't have to do anything - this implementation is provided automatically. If you are not using Nuxt.js, try to copy this piece od code and modify to cover your needs. The result code will be still very similar.
 
 ```js
-import { configureSSR } from '@vue-storefront/core'
+import { configureSSR } from '@kali604/core'
 import { ssrRef, getCurrentInstance, onServerPrefetch } from '@nuxtjs/composition-api';
 
 const ssrPlugin = () => {

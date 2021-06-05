@@ -114,7 +114,7 @@ The creation of an API client starts with the configuration. As we use middlewar
 ```ts
 // index.server.ts
 import * as api from './api';
-import { apiClientFactory } from '@vue-storefront/core';
+import { apiClientFactory } from '@kali604/core';
 
 const onCreate = (settings) => {
   const config = { ..setings }
@@ -214,7 +214,7 @@ const productFactoryParams: UseProductFactoryParams<PRODUCTS, PRODUCT_SEARCH_PAR
 ```ts
 // theme/pages/Product.vue
 import { useProduct } from '{INTEGRATION}';
-import { onSSR } from '@vue-storefront/core`
+import { onSSR } from '@kali604/core`
 
 export default {
   setup() {
@@ -244,7 +244,7 @@ Inside of the composables packages you have to create another directory, next to
 Example of plugin
 ```js
 // composables/nuxt/plugin.js
-import { integrationPlugin } from '@vue-storefront/core'
+import { integrationPlugin } from '@kali604/core'
 
 const moduleOptions = <%= serialize(options) %>;
 
@@ -275,7 +275,7 @@ The `factoryParams` are including functions that you have to implement to provid
 ```ts
 // composables/src/useCart/index.js
 
-import { useCartFactory, UseCartFactoryParams, Context } from '@vue-storefront/core';
+import { useCartFactory, UseCartFactoryParams, Context } from '@kali604/core';
 
 interface Cart { /* ... */ }
 
@@ -345,7 +345,7 @@ However, you have to keep in mind that you need to handle context and reactive p
 
 ```ts
 // composables/src/useCart/index.js
-import { vsfRef, useVSFContext } from '@vue-storefront/core';
+import { vsfRef, useVSFContext } from '@kali604/core';
 
 const useCart = () => {
   const cart = vsfRef(null, 'my-own-cart')
@@ -373,7 +373,7 @@ Getters are the pure functions that are reading something from the given respons
 
 ```js
 // composables/src/getters/index.js
-import { CartGetters, AgnosticPrice } from '@vue-storefront/core';
+import { CartGetters, AgnosticPrice } from '@kali604/core';
 
 interface LineItem { /* ... */}
 

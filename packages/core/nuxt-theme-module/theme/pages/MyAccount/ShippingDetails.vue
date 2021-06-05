@@ -79,7 +79,7 @@ import UserShippingAddress from '~/components/UserShippingAddress';
 import ShippingAddressForm from '~/components/MyAccount/ShippingAddressForm';
 import { useUserShipping, userShippingGetters } from '<%= options.generate.replace.composables %>';
 import { ref, computed } from '@vue/composition-api';
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 
 export default {
   name: 'ShippingDetails',

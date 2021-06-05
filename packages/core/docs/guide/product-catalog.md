@@ -11,7 +11,7 @@ You can fetch the product and its variants with `search` method. The response wi
 
 ```js
 import { useProduct } from '{INTEGRATION}'
-import { onSSR } from '@vue-storefront/core'
+import { onSSR } from '@kali604/core'
 // ...
 
 export default {

@@ -16,7 +16,7 @@ export default {
 
 ### After
 ```js
-import { useVSFContext } from '@vue-storefront/core';
+import { useVSFContext } from '@kali604/core';
 
 export default {
   setup () {

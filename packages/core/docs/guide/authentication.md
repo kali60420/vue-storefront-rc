@@ -42,7 +42,7 @@ Like with all other composables, it's important to remember to call `load` befor
 
 ```js{8,16}
 import { useUser } from '{INTEGRATION}';
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 
 export default {
   setup () {

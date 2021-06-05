@@ -132,7 +132,7 @@ interface AgnosticRateCount {
 ## Example
 
 ```typescript
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 import { useReview, reviewGetters } from '@vsf-enterprise/commercetoolss';
 
 export default {

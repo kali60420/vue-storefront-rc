@@ -109,7 +109,7 @@ import {
   SfAccordion,
   SfLink
 } from '@storefront-ui/vue';
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 import { ref, computed } from '@vue/composition-api';
 import { useMakeOrder, useCart, cartGetters } from '<%= options.generate.replace.composables %>';
 

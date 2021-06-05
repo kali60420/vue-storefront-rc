@@ -14,7 +14,7 @@
     "prepublish": "yarn build"
   },
   "dependencies": {
-    "@vue-storefront/core": "^2.3.3"
+    "@kali604/core": "^2.3.4"
   },
   "files": [
     "lib/**/*"

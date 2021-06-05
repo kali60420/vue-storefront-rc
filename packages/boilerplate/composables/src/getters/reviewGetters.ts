@@ -1,4 +1,4 @@
-import { ReviewGetters, AgnosticRateCount } from '@vue-storefront/core';
+import { ReviewGetters, AgnosticRateCount } from '@kali604/core';
 
 type Review = any;
 type ReviewItem = any;

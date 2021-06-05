@@ -146,7 +146,7 @@ interface ProductVariantFilters {
 ```js
 // search single product
 import { useProduct, productGetters } from '@vue-storefront/commercetools';
-import { onSSR } from '@vue-storefront/core'
+import { onSSR } from '@kali604/core'
 import { computed } from '@vue/composition-api';
 
 export default {
@@ -171,7 +171,7 @@ export default {
 ```js
 // search products by ids
 import { useProduct, productGetters } from '@vue-storefront/commercetools';
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 import { computed } from '@vue/composition-api';
 
 export defaut {

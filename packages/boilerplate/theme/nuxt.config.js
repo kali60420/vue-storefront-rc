@@ -50,11 +50,11 @@ export default {
       useRawSource: {
         dev: [
           '@vue-storefront/boilerplate',
-          '@vue-storefront/core'
+          '@kali604/core'
         ],
         prod: [
           '@vue-storefront/boilerplate',
-          '@vue-storefront/core'
+          '@kali604/core'
         ]
       }
     }],

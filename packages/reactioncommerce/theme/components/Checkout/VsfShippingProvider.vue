@@ -59,7 +59,7 @@ import {
 } from '@storefront-ui/vue';
 import { ref, reactive, onMounted, computed } from '@vue/composition-api';
 import getShippingMethodPrice from '@/helpers/Checkout/getShippingMethodPrice';
-import { useVSFContext } from '@vue-storefront/core';
+import { useVSFContext } from '@kali604/core';
 
 export default {
   name: 'VsfShippingProvider',

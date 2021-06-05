@@ -116,7 +116,7 @@ export type Product = {
 Fetch a single product by handle of the product.
 ```typescript
 import { computed } from '@vue/composition-api';
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 import { useProduct, productGetters } from '@vue-storefront/shopify';
 
 export default {
@@ -140,7 +140,7 @@ export default {
 Fetch best selling products.
 ```typescript
 import { useProduct } from '@vue-storefront/shopify';
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 export default {
   setup() {
     const { products, search: productsSearch } = useProduct('categoryProducts');

@@ -10,7 +10,7 @@ Always, instead of using configuration or networking stored in the global object
 Each time you want to access an integration stuff, such as network client, configuration or API functions please use `useVSFContext`
 
 ```js
-import { useVSFContext } from '@vue-storefront/core';
+import { useVSFContext } from '@kali604/core';
 
 export default {
   setup () {
@@ -56,11 +56,11 @@ Uncaught Error: [vue-composition-api] must call Vue.use(plugin) before using any
     coreDevelopment: true,
     useRawSource: {
       dev: [
-        '@vue-storefront/core'
+        '@kali604/core'
         '@vue-storefront/other-package' // 1
       ],
       prod: [
-        '@vue-storefront/core',
+        '@kali604/core',
         '@vue-storefront/other-package' // 1
       ]
     }

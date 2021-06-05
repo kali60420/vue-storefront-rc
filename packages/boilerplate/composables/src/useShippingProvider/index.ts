@@ -1,4 +1,4 @@
-import { useShippingProviderFactory, UseShippingProviderParams, Context } from '@vue-storefront/core';
+import { useShippingProviderFactory, UseShippingProviderParams, Context } from '@kali604/core';
 import { Shipping, ShippingMethod } from '../types';
 
 let provider = {};

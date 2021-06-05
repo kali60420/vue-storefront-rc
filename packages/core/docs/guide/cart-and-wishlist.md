@@ -9,7 +9,7 @@ The `load` method will load your cart from the server or create a new one if it 
 
 ```js
 import { useCart } from '{INTEGRATION}';
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 export default {
   setup() {
     const {
@@ -106,7 +106,7 @@ To remove an item from the cart use `removeItem` method, and similarly to update
 <script>
   import { computed } from '@vue/composition-api';
   import { useCart, cartGetters } from '{INTEGRATION}';
-  import { onSSR } from '@vue-storefront/core';
+  import { onSSR } from '@kali604/core';
 
   export default {
     setup() {
@@ -254,7 +254,7 @@ The `load` method will load your cart from the server or create a new one if it 
 ```vue
 <script>
   import { useWishlist } from '{INTEGRATION}'
-  import { onSSR } from '@vue-storefront/core'
+  import { onSSR } from '@kali604/core'
 
   export default {
     setup () {
@@ -352,7 +352,7 @@ To remove an item from the cart use `removeItem` method.
 <script>
   import { computed } from '@vue/composition-api';
   import { useWishlist, wishlistGetters } from '{INTEGRATION}';
-  import { onSSR } from '@vue-storefront/core';
+  import { onSSR } from '@kali604/core';
   export default {
     setup() {
       const {
@@ -575,7 +575,7 @@ The cart component:
 <script> 
   import { computed, ref } from '@vue/composition-api';
   import { useCart, cartGetters } from '{INTEGRATION}';
-  import { onSSR } from '@vue-storefront/core';
+  import { onSSR } from '@kali604/core';
   export default {
     setup() {
       const {
@@ -643,7 +643,7 @@ The wishlist component:
 <script> 
   import { computed } from '@vue/composition-api';
   import { useWishlist, wishlistGetters } from '{INTEGRATION}';
-  import { onSSR } from '@vue-storefront/core';
+  import { onSSR } from '@kali604/core';
   export default {
     setup() {
       const {

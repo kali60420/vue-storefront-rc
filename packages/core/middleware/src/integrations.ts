@@ -6,7 +6,7 @@ import {
   ApiClientExtension,
   IntegrationsSection,
   CustomQuery
-} from '@vue-storefront/core';
+} from '@kali604/core';
 
 interface IntegrationLoaded {
   apiClient: ApiClientFactory;

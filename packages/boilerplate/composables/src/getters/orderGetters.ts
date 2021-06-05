@@ -1,6 +1,6 @@
 /* istanbul ignore file */
 
-import { UserOrderGetters } from '@vue-storefront/core';
+import { UserOrderGetters } from '@kali604/core';
 import { Order, OrderItem } from '../types';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars

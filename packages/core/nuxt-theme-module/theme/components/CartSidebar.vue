@@ -123,7 +123,7 @@ import {
 import { computed } from '@vue/composition-api';
 import { useCart, useUser, cartGetters } from '<%= options.generate.replace.composables %>';
 import { useUiState } from '~/composables';
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 
 export default {
   name: 'Cart',

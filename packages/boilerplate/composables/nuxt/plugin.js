@@ -1,4 +1,4 @@
-import { integrationPlugin } from '@vue-storefront/core';
+import { integrationPlugin } from '@kali604/core';
 
 const moduleOptions = <%= serialize(options) %>;
 

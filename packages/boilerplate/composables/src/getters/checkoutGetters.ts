@@ -1,4 +1,4 @@
-import { CheckoutGetters} from '@vue-storefront/core';
+import { CheckoutGetters} from '@kali604/core';
 import { ShippingMethod } from '@vue-storefront/boilerplate-api/src/types';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars

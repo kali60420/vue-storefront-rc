@@ -100,7 +100,7 @@ To add tags, use `useCache` composable from `@vue-storefront/cache` package.
 
 ```javascript
 // pages/Category.vue
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 import { useCache, CacheTagPrefix } from '@vue-storefront/cache';
 
 export default {

@@ -1,5 +1,5 @@
 
-import { configureSSR } from '@vue-storefront/core'
+import { configureSSR } from '@kali604/core'
 import { ssrRef, getCurrentInstance, onServerPrefetch } from '@nuxtjs/composition-api';
 
 const hasRouteChanged = (vm) => {

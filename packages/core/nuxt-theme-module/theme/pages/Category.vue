@@ -355,7 +355,7 @@ import {
 import { ref, computed, onMounted } from '@vue/composition-api';
 import { useCart, useWishlist, productGetters, useFacet, facetGetters } from '<%= options.generate.replace.composables %>';
 import { useUiHelpers, useUiState } from '~/composables';
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 import LazyHydrate from 'vue-lazy-hydration';
 import Vue from 'vue';
 

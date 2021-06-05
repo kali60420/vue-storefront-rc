@@ -11,7 +11,7 @@ Shipping details are information about the recipient's address required to ship 
 You can load shipping details by calling the `load` method in `useShipping` composable and accessing the `shipping` property after loading is done.
 ```js{8,16}
 import { useShipping } from '{INTEGRATION}';
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 
 export default {
   setup () {
@@ -44,7 +44,7 @@ You can use the `save` method to save shipping details so they are available nex
 
 <script>
 import { useShipping } from '{INTEGRATION}';
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 
 export default {
   setup () {
@@ -116,7 +116,7 @@ For such cases, you can use `useShippingProvider` composable. It has been made f
 
 ```ts
 import { useShippingProvider } from '{INTEGRATION}';
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 import { computed } from '@vue/composition-api';
 
 export default {
@@ -142,7 +142,7 @@ You can load billing details by calling the `load` method in `useBilling` compos
 
 ```js{8,16}
 import { useBilling } from '{INTEGRATION}';
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 
 export default {
   setup () {
@@ -175,7 +175,7 @@ You can use the `save` method to save billing details.
 
 <script>
 import { useBilling } from '{INTEGRATION}';
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 
 export default {
   setup () {

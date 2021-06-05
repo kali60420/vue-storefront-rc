@@ -24,7 +24,7 @@ export type Content = {
 Fetch a single page by handle of the shop.
 
 ```javascript
-import { onSSR } from '@vue-storefront/core';
+import { onSSR } from '@kali604/core';
 import { useContent, contentGetters } from '@vue-storefront/shopify';
 
 export default {

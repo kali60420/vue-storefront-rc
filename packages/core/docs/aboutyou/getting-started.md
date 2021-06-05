@@ -36,11 +36,11 @@ setup({
   useRawSource: {
     dev: [
       '@vue-storefront/about-you',
-      '@vue-storefront/core'
+      '@kali604/core'
     ],
     prod: [
       '@vue-storefront/about-you',
-      '@vue-storefront/core'
+      '@kali604/core'
     ]
   }
 }],

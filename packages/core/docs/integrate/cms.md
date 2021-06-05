@@ -36,7 +36,7 @@ To create this composable you should use `useContentFactory` from Vue Storefront
 
 ```ts
 // integration
-import { useContentFactory } from '@vue-storefront/core'
+import { useContentFactory } from '@kali604/core'
 
 // CONTENT and CONTENT_SEARCH_PARAMS are your CMS-specific types, we advise to have at least 'id' param for search
 const useContent = useContentFactory<CONTENT, CONTENT_SEARCH_PARAMS>({
@@ -104,7 +104,7 @@ Inside your application you'll also need to register your UI components that wil
 </template>
 
 <script>
-import { onSSR } from '@vue-storefront/core'
+import { onSSR } from '@kali604/core'
 import { useContent, RenderContent } from '@vue-storefront/my-super-cms'
 // These are the components that will be rendered by RenderContent
 import { CMSBanner, CMSHero } from '~/components'

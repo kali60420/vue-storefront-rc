@@ -1,5 +1,5 @@
 
-import { configureContext } from '@vue-storefront/core'
+import { configureContext } from '@kali604/core'
 import { useContext as useBaseContext } from '@nuxtjs/composition-api';
 
 const contextPlugin = (ctx, inject) => {
