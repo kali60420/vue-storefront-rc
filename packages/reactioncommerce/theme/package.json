@@ -20,7 +20,7 @@
   "dependencies": {
     "@nuxtjs/pwa": "^3.2.2",
     "@storefront-ui/vue": "0.10.3",
-    "@kali604/reactioncommerce": "^1.0.2",
+    "@kali604/reactioncommerce": "latest",
     "@vue-storefront/middleware": "^2.3.3",
     "@vue-storefront/nuxt": "^2.3.3",
     "@vue-storefront/nuxt-theme": "^2.3.3",
@@ -33,7 +33,7 @@
     "vue-scrollto": "^2.17.1"
   },
   "devDependencies": {
-    "@nuxt/types": "^0.7.9",
+    "@nuxt/types": ">=2.13.1",
     "@vue/test-utils": "^1.0.0-beta.27",
     "babel-jest": "^24.1.0",
     "cypress": "^6.6.0",
